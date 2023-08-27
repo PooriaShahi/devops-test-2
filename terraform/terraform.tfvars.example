@@ -1,0 +1,78 @@
+name  = ""
+chart = ""
+
+wordpress = {
+    replica = 
+    name = ""
+    containerName = ""
+    image = ""
+    internalPort = 
+    service = {
+        type = ""
+        externalPort = 
+        name = ""
+    }
+    ingress = {
+        name = ""
+        host = ""
+        path = ""
+    }
+    issuer = {
+        email = ""
+    }
+}
+mysql = {
+    replica = 1
+    name = ""
+    containerName = ""
+    image = ""
+    internalPort = 
+    service = {
+        type = ""
+        externalPort = 
+        name = ""
+    }
+    pv = {
+        name = ""
+        path = ""
+    }
+    pvc = {
+        name = ""
+        storageClass = ""
+        size = 
+    }
+    config = {
+        name = ""
+    }
+    username = {
+        key = ""
+        value = ""
+    }
+    database = {
+        key = ""
+        value = ""
+    }
+    secret = {
+        name = ""
+        rootPassword = {
+            key = ""
+            value = ""
+        }
+        password = {
+            key = ""
+            value = ""
+        }
+    }
+}
+
+pma = {
+    name = ""
+    internalPort = 
+    service = {
+        name = ""
+        externalPort = 
+    }
+    ingress = {
+        name = ""
+    }
+}
